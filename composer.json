@@ -1,0 +1,31 @@
+{
+    "name": "blioxxx/contao-boxes",
+    "description": "Extension Content-Box for the Contao CMS Edit Add topics",
+    "minimum-stability": "stable",
+    "license": "none",
+    "type": "contao-module",
+    "authors": [
+        {
+            "name": "Mirco Kibiger",
+            "email": "info@blioxxx.de"
+        },
+        {
+            "name": "Magmell – Agentur für Film, Web und Print",
+            "email": "info@magmell.de"
+        }
+    ],
+    "require": {
+        "contao/core": ">=3.2.0-RC,<4.0.0-dev",
+        "contao-community-alliance/composer-plugin": "~2.0"
+    },
+    "replace": {
+        "contao-legacy/boxes":"*"
+    },
+    "extra": {
+      "contao": {
+        "sources": {
+          "": "system/modules/boxes"
+        }
+      }
+    }
+}
